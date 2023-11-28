@@ -15,7 +15,5 @@
     "regenerator-runtime": "^0.14.0",
     "sass": "^1.26.10"
   },
-  "dependencies": {
-    "fractional": "^1.0.0"
-  }
+  "dependencies": {}
 }
