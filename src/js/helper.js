@@ -23,7 +23,6 @@ export async function ajaxRequest(url, uploadData) {
     if (!response.ok) throw new Error(`${data.message} ${response.status}`);
     return data;
   } catch (err) {
-    // console.error(err.message);
     throw err;
   }
 }

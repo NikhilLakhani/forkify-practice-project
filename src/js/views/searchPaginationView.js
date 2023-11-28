@@ -17,7 +17,6 @@ class SearchPaginationView extends View {
 
   _generateMarkup() {
     const numOfPages = Math.ceil(this._data.result.length / RESULTS_PRE_PAGE);
-    // console.log(numOfPages);
     const currPage = this._data.currPage;
 
     const prevButton = `

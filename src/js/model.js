@@ -125,7 +125,6 @@ export async function uploadRecipe(newRecipe) {
     const data = await ajaxRequest(`${API_URL}?key=${API_KEY}`, recipe);
     state.recipe = createRecipeObj(data);
     addBookmark(state.recipe);
-    // console.log(data);
   } catch (err) {
     throw err;
   }
@@ -134,6 +133,5 @@ export async function uploadRecipe(newRecipe) {
 function init() {
   const storage = localStorage.getItem('bookmarks');
   if (storage) state.bookmarks = JSON.parse(storage);
-  console.log(state.bookmarks);
 }
 init();
