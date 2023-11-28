@@ -1,4 +1,4 @@
-import { numberToFraction } from '../helpers.js';
+import { numberToFraction } from '../helper.js';
 import View from './view.js';
 import Fraction from 'fractional';
 import icons from 'url:../../img/icons.svg';
